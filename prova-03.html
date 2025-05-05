@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    
+</head>
+<body>
+    <form>
+        <h1>Formulario</h1>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" value="Nome">
+            <br>
+            <label for="e-mail">E-Mail</label>
+            <input type="text" id="e-mail" value="E-Mail">
+            <br>
+            <label for="senha">Senha</label>
+            <input type="text" id="senha" value= "Senha">
+            <br>
+            <label for="pais">Pais</label>
+            <select name="pais" id="pais">
+                <option value="ce">Brasil</option>
+                <option value="rj">França</option>
+                <option value="sp">Portugal</option>
+                <option value="pe">Espanha</option>
+            </select> <br> <br>
+            <label for="descrição">Descrição</label>
+            <textarea name="descrição" id="descrição" cols="52" rows="5"></textarea>
+        </fieldset>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
